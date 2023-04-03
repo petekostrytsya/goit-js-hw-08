@@ -40,7 +40,7 @@ galleryRef.insertAdjacentHTML("beforeend", galleryMarkup);
 // }
 
 const lightbox = new SimpleLightbox('.gallery a', {
-    captionsData: 'alt', captionPosition: 'bottom', captionDelay: 500
+    captionsData: 'alt', captionPosition: 'bottom', captionDelay: 250
 });
 
 // console.log(galleryItems);
